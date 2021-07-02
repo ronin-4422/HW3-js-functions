@@ -36,7 +36,11 @@ function rangeSmall(n) {
 rangeSmall(5);
 
 
-// console.log('------------- # 7')
+console.log('------------- # 7')
+function pow(x, n) {
+  return Math.pow(x, n)
+}
+console.log(pow(9, 2))
 // function pow(x, n) {
 //   let result = x;
 //   for (let i = 1; i < n; i--) {
