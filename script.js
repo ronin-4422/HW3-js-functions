@@ -36,14 +36,34 @@ function rangeSmall(n) {
 rangeSmall(5);
 
 
-console.log('------------- # 7')
-function pow(x, n) {
-  let result = x;
-  for (let i = 1; i < n; i--) {
-    result *= x;
+// console.log('------------- # 7')
+// function pow(x, n) {
+//   let result = x;
+//   for (let i = 1; i < n; i--) {
+//     result *= x;
+//   }
+//   return result;
+// }
+// console.log(pow(9, 2));
+
+console.log('------------- # 8')
+function isBigger(a, b) {
+  if (a > b) {
+    return (true);
+  } else if (a < b) {
+    return (false)
   }
-  return result;
-}
-console.log(pow(9, 2));
+} 
+console.log(isBigger(5, -1));
+
+console.log('------------- # 9')
+function isSmaller(a, b) {
+  if (a > b) {
+    return (false);
+  } else if (a < b) {
+    return (true)
+  }
+} 
+console.log(isSmaller(5, -1));
 
 
